@@ -1,14 +1,18 @@
 var element = document.getElementById("sonnet");
 
-var sonnet = element.innerHTML;
 
-console.log(sonnet);
+var sonnet = element.innerHTML;
 
 
 orphanPosition = sonnet.indexOf("orphans");
+//console.log(orphanPosition);
 
-console.log(orphanPosition);
+//console.log(sonnet.length); 
 
-console.log(sonnet.length);
+var newQuote = sonnet.replace("winter", "yuletide");
 
-var newLine = sonnet.replace
+var newerQuote = newQuote.replace(/the/g, "a large ");
+
+
+element.innerHTML = newerQuote;
+
