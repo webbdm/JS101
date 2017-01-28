@@ -85,8 +85,10 @@ for (var k = 0; k < 6; k++) {
 
 
 // for loop that starts at 100 and divides by 2 each time three times =
-for (var j=100; j<4; j++) {
+
+for (var q = 100; q > 11; q++) {
 	
+	console.log(q/2);
 	
 }
 
