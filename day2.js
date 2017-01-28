@@ -79,18 +79,33 @@ for (var i = 0; i < 101; i+=10) {
 
 // then a for loop that pushes the index to an array for 5 times =
 
-for (var k = 0; k < 6; k++) {
-	console.log(fruit[k]);
+var myArray = [];
+
+for (var k = 0; k < 5; k++) {
+
+	myArray.push(i);
+
 }
+	console.log(myArray);
+
 
 
 // for loop that starts at 100 and divides by 2 each time three times =
 
-for (var q = 100; q > 11; q++) {
+// for (var q = 100; q > 11; q++) {
 	
-	console.log(q/2);
+// 	console.log(q/2);
 	
+// }
+
+var num = 100;
+
+for (var j = 0; j <3; j++) {
+	console.log("Number: ", num);
+	num=num/2;
 }
+
+
 
 
 
